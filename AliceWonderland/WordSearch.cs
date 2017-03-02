@@ -19,8 +19,7 @@ conversations in it, 'and what is the use of a book,'
 thought Alice 'without pictures or conversation?'";
 
             string[] words = wonderland.Split(' ');
-          
-            bool displayAnswer = true;
+            
             Console.Write("Please enter the word you are searching for: ");
             string input = Console.ReadLine();
 
@@ -33,13 +32,14 @@ thought Alice 'without pictures or conversation?'";
                     return true;
                    
                 }
-                 
-   
+          
              }
 
             return false;
-        }   
-      
+        }
     }
-    
+
+
 }
+    
+
