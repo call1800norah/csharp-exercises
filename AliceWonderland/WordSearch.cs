@@ -22,12 +22,13 @@ thought Alice 'without pictures or conversation?'";
             
             Console.Write("Please enter the word you are searching for: ");
             string input = Console.ReadLine();
+            string lowerCase = input.ToLower();
 
              for (int word = 0; word < words.Length; word++)
              {
                  string lowerword = words[word].ToLower();
 
-                 if (lowerword == input)
+                 if (lowerword == lowerCase)
                  {
                     return true;
                    
